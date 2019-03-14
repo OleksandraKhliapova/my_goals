@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { createAddGoalAction } from '../store/reducer';
+import { createAddGoalAction } from '../../store/reducer';
 
 class AddGoal extends Component {
 

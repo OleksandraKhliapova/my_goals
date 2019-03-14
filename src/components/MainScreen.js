@@ -8,7 +8,6 @@ import GoalTitles from './GoalTitles';
 import '../App.css';
 
 class MainScreen extends Component {
-
   render() {
     return (
       <div className="App">
@@ -18,12 +17,12 @@ class MainScreen extends Component {
           <div className="goals-block">
             <GoalTitles />
             {this.props.goals.map((goal, index) => {
-              return <Goal index={index} key={index} />
+              return <Goal index={index} key={goal.name + index} />
             })}
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
@@ -35,4 +34,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect (mapStateToProps)(MainScreen);
+export default connect(mapStateToProps)(MainScreen);

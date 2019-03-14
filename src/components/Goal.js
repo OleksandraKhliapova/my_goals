@@ -22,7 +22,7 @@ class Goal extends Component {
       </div>
     )
   }
-  }
+}
 
 function mapStateToProps(state, props) {
   const goal = state.goals[props.index];

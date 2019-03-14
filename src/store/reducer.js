@@ -1,5 +1,3 @@
-import store from ".";
-
 const initialState = {
   tableName: "My goals for 2019",
   goals: [
