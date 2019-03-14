@@ -2,6 +2,7 @@
   "name": "my",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oleksandrakhliapova.github.io/my_goals/",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
