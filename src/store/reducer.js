@@ -6,22 +6,27 @@ const initialState = {
     {
       name: "Bali trip",
       deadline: "2019-09-10",
-      price: "350k Rub"
+      price: "350k"
     },
     {
-      name: "Wedding",
-      deadline: "2019-06-15",
-      price: "700k Rub"
+      name: "A house",
+      deadline: "2021-03-31",
+      price: "6 000k"
     },
     {
-      name: "Job",
-      deadline: "2019-03-31",
-      price: "0"
+      name: "A sandwich",
+      deadline: "2019-04-07",
+      price: "100"
     },
     {
-      name: "Perfect body",
-      deadline: "2019-05-15",
-      price: "0"
+      name: "A dog",
+      deadline: "2021-05-15",
+      price: "2k"
+    },
+    {
+      name: "A car",
+      deadline: "2020-06-15",
+      price: "1 000k"
     }
   ]
 }
