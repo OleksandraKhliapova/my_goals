@@ -48,4 +48,4 @@ class AddGoal extends Component {
   }
 }
 
-export default connect ()(AddGoal);
+export default connect()(AddGoal);

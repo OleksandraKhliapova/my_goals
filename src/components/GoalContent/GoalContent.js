@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import { createEditGoalAction } from '../store/reducer';
+import { createEditGoalAction } from '../../store/reducer';
 
 class GoalContent extends Component {
 
@@ -63,4 +63,4 @@ function mapStateToProps(state, props) {
   }
 }
 
-export default connect (mapStateToProps)(GoalContent);
+export default connect(mapStateToProps)(GoalContent);

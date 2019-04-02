@@ -15,4 +15,4 @@ function mapStateToProps(state) {
   }
 }
 
-export default connect (mapStateToProps)(TableName);
+export default connect(mapStateToProps)(TableName);

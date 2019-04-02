@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import Goal from './Goal';
-import AddGoal from './AddGoal';
-import TableName from './TableName';
-import GoalTitles from './GoalTitles';
-import '../App.css';
+import Goal from '../Goal';
+import AddGoal from '../AddGoal';
+import TableName from '../TableName';
+import GoalTitles from '../GoalTitles';
+import '../../App.css';
 
 class MainScreen extends Component {
   render() {

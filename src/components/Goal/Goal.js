@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import EditGoal from './EditGoal';
-import GoalContent from './GoalContent.js';
+import EditGoal from '../EditGoal';
+import GoalContent from '../GoalContent';
 
 class Goal extends Component {
   state = {
@@ -32,4 +32,4 @@ function mapStateToProps(state, props) {
   };
 }
 
-export default connect (mapStateToProps)(Goal);
+export default connect(mapStateToProps)(Goal);

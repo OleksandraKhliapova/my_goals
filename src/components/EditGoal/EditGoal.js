@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { createRemoveGoalAction } from '../store/reducer';
+import { createRemoveGoalAction } from '../../store/reducer';
 
 const EditGoal = (props) => { 
 
@@ -11,8 +11,8 @@ const EditGoal = (props) => {
 
   return (
     <div className="goal__buttons">
-      <img onClick={props.editGoal} className="goal__icon" src={require('../img/edit-icon.svg')} />
-      <img onClick={() => removeGoal(props.index)} className="goal__icon" src={require('../img/close-icon.svg')} />
+      <img onClick={props.editGoal} className="goal__icon" src={require('../../img/edit-icon.svg')} />
+      <img onClick={() => removeGoal(props.index)} className="goal__icon" src={require('../../img/close-icon.svg')} />
     </div>
   )
 }
@@ -25,4 +25,4 @@ function mapStateToProps(state, props) {
   };
 }
 
-export default connect (mapStateToProps)(EditGoal);
+export default connect(mapStateToProps)(EditGoal);
